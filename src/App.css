@@ -1,38 +1,141 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  background-color: #16213E;
   min-height: 100vh;
+  color: white;
+  font-family: 'Courier New';
+
+}
+
+.Cabecera {
+  padding: 1%;
+}
+
+.ContenedorPrincipal {
+  min-height: 60vh;
+  /* align-items: center; */
+  justify-content: center;
   display: flex;
   flex-direction: column;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.HR{
+  background-color: #ffffff;
+  border: 0 none;
+  height: 5px;
+
+}
+
+.user{
+  border-radius: 50%;
+  width: 90%;
+}
+
+.foto{
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  display: flex;
 }
 
-.App-link {
-  color: #61dafb;
+.ContenedorDivs{
+  padding: 1%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ReactDiv{
+  background-color: #71B8D2;
+  min-height: 40vh;
+  transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.MongoDiv{
+  background-color: #7F77B4 ;
+  min-height: 40vh;
+  transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.JsDiv{
+  background-color: #DF8D85;
+  min-height: 40vh;
+  transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.NodeDiv{
+  background-color: #D9B089;
+  min-height: 40vh;
+  transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.ReactDiv:hover {
+  background-color: #71b8d28c;
+  /* transform: scale(1.05); */
+}
+.MongoDiv:hover {
+  background-color: #7f77b488;
+  /* transform: scale(1.05); */
+}
+.JsDiv:hover {
+  background-color: #df8c8598;
+  /* transform: scale(1.05); */
+}
+.NodeDiv:hover {
+  background-color: #d9b089a2;
+  /* transform: scale(1.05); */
+}
+.HRDIVS{
+  background-color: #ffffff;
+  border: 0 none;
+  height: 3px;
+}
+.lenguajes{
+  height: 250px;
+  width: 270px !important;
+}
+
+.pie{
+  min-height: 40vh;
+  padding: 1%;
+  padding-top: 3%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.icono{
+  height: 50px;
+  width: 70px !important;
+  margin-top: 2%;
+}
+
+.cardsS{
+  min-height: 20vh;
+  padding: 1%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.cardSola{
+  width: 200px !important;
+  height: 250px;
+  color: black;
+  background-color: white;
+  border-radius: 15px;
+  transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;
+}
+.cardFoto{
+  height: 150px;
+  width: 200px !important;
+}
+.textoCard{
+  padding: 10%;
+}
+.cardSola:hover {
+  background-color: #ffffffa2;
+  /* transform: scale(1.05); */
 }

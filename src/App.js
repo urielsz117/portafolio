@@ -84,7 +84,51 @@ function App() {
         </div>
       </div>
 
-      
+      <div className="cardsS">
+        <h1 class="display-1">PROYECTOS</h1>
+        <div class="row">
+          <div class="col">
+            <div class="card" className="cardSola">
+              <FontAwesomeIcon icon={faFolderOpen} className="cardFoto" />
+              <div class="card-body" className="textoCard">
+                <p class="card-text">Landing de Ventas.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" className="cardSola">
+              <FontAwesomeIcon icon={faFolderOpen} className="cardFoto" />
+              <div class="card-body" className="textoCard">
+                <p class="card-text">Aplicacion CRUD.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" className="cardSola">
+              <FontAwesomeIcon icon={faFolderOpen} className="cardFoto" />
+              <div class="card-body" className="textoCard">
+                <p class="card-text">Tablero de Datos (DASHBOARD).</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" className="cardSola">
+              <FontAwesomeIcon icon={faFolderOpen} className="cardFoto" />
+              <div class="card-body" className="textoCard">
+                <p class="card-text">Restaurante APP.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" className="cardSola">
+              <FontAwesomeIcon icon={faFolderOpen} className="cardFoto" />
+              <div class="card-body" className="textoCard">
+                <p class="card-text">Comercio Electronico.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <div className="pie">
         <div class="row">
